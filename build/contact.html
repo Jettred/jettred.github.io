@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <title>Contact</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/output.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js"></script>
+</head>
+
+<body>
+    <nav class="opacity-0">
+        <div class="nav-links">
+            <a style="text-decoration: none" href="index.html">Home</a>
+            <a style="text-decoration: none" href="about.html">About me</a>
+            <a style="text-decoration: none" href="projects.html">Projects</a>
+            <a style="text-decoration: none" href="contact.html">Have a Job for me?</a>
+            <div class="dot"></div>
+        </div>
+    </nav>
+
+    <body>
+        <div id="container">
+            <h1 class="contact-header">&bull; Need Somethin' Done? &bull;</h1>
+            <div class="underline">
+            </div>
+
+            <form action="#">
+              <div class="name">
+                <label for="name"></label>
+                <input type="text" placeholder="Name " name="name" required>
+              </div>
+              <div class="email">
+                <label for="email"></label>
+                <input type="email" placeholder="E-Mail ID" name="email" required>
+              </div>
+              <div class="telephone">
+                <label for="name"></label>
+                <input type="text" placeholder="Phone Number" name="telephone"  required>
+              </div>
+              <div class="subject">
+                <label for="subject"></label>
+                <select placeholder="Subject" name="subject" required>
+                  <option disabled hidden selected>Subject</option>
+                  <option>I've got a job for you!</option>
+                  <option>I'd like to ask a question</option>
+                  <option>I'd like to set up a meet!</option>
+                </select>
+              </div>
+              <div class="message">
+                <label for="message"></label>
+                <textarea name="message" placeholder="Brief Description" id="message_input" cols="30" rows="3" required></textarea>
+              </div>
+              <div class="submit">
+                <input type="submit" value="Send Message"/>
+              </div>
+            </form>
+          </div><
+
+    </body>
+
+    <script src="static/reg_transitions.js"></script>
+</body>
+
+</html>
